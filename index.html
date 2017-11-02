@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD14rmXNquxCPEKEsp88IUVXCyPFV9XgV8&callback=initMap"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 slide-home">
+                <img src="img/img1.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="Reservation">
+                    <div class="container">
+                        <h3 class="Reservation-title">Réservez votre séjour</h3>
+                        <div class="Reservation-content">
+
+                            <div class="FiltreMoteurExt">
+                                <span class="OsWrapSelect">
+                											<select id="SelectMoteurExt">
+                                          <option value="">Appartements</option>
+                                          <option value="">Appartements</option>
+                													<option value="">Appartements</option>
+                													<option value="">Appartements</option>
+                											</select>
+                								</span>
+                            </div>
+                            <div class="bx-datepicker">
+                                <div class="demo">
+                                    <p>
+                                        <input type="text" id="datepicker1" placeholder="Du">
+                                    </p>
+                                </div>
+                                <div class="demo">
+                                    <p>
+                                        <input type="text" id="datepicker2" placeholder="Au">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="FiltreMoteurExt">
+                                <span class="OsWrapSelect">
+                  											<select id="SelectMoteurExt">
+                                            <option value="">1 adulte</option>
+                                            <option value="">2 adulte</option>
+                  													<option value="">3 adulte</option>
+                  													<option value="">4 adulte</option>
+                  											</select>
+                  								</span>
+                            </div>
+                            <div class="FiltreMoteurExt">
+                                <span class="OsWrapSelect">
+                  											<select id="SelectMoteurExt">
+                                            <option value="">0 enfant</option>
+                                            <option value="">1 enfant</option>
+                  													<option value="">2 enfant</option>
+                  													<option value="">3 enfant</option>
+                  											</select>
+                  								</span>
+                            </div>
+                            <div class="OsFiltreBoutonRecherche">
+                                <div class="OsFiltreCritereContenu">
+                                    <a href="#" class="OsFiltreBtnRecherche OsBtnEnvoi">Rechercher</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bx-filtres">
+                <h3 class="Faceting-header">FILTRES</h3>
+                <div class="Faceting-col">
+                    <div class="title-result">16 RESULTATS<span>X</span>
+                    </div>
+                    <div class="result-content">
+                        <div class="tabs-choice">
+                            <p class="Faceting-title">MODE DE PAIEMENT</p>
+                            <div class="bx-choice">
+                                <span class="Faceting-item   " href="#">Carte bancaire/crédit </span>
+                                <span class="Faceting-item   " href="#">Chèque</span>
+                                <span class="Faceting-item   " href="#">Chèque Vacances</span>
+                                <span class="Faceting-item   " href="#">Espèces</span>
+                            </div>
+                        </div>
+                        <div class="tabs-choice">
+                            <p class="Faceting-title">AUTOUR DE MOI</p>
+                            <div class="bx-choice">
+                                <span class="Faceting-item   " href="#">AUTOUR DE MOI</span>
+                            </div>
+                        </div>
+                        <div class="tabs-choice">
+                            <p class="Faceting-title">PRESTATIONS</p>
+                            <div class="bx-choice">
+                                <span class="Faceting-item   " href="#">Animaux acceptés</span>
+                                <span class="Faceting-item   " href="#">Accès Internet Wifi)</span>
+                                <span class="Faceting-item   " href="#">Restaurant</span>
+                                <span class="Faceting-item   " href="#">Accessible en fauteuil roulant avec aide</span>
+                            </div>
+                        </div>
+                        <div class="tabs-choice">
+                            <p class="Faceting-title">CRITÈRES</p>
+                            <div class="bx-choice">
+                                <span class="Faceting-item   " href="#">AMéribel </span>
+                                <span class="Faceting-item   " href="#">Méribel-Mottaret</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="listing-content">
+                    <div class="Listing-intro">
+                        <h1 class="Listing-heading">RÉSERVER UN HÔTEL À MÉRIBEL</h1>
+                        <div class=" wisiwig">
+                            <p>Vous cherchez une solution d’hébergement confortable pour séjour lors de vos prochaines vacances au ski en Savoie ? Découvrez notre sélection d’hôtels à Méribel.</p>
+                            <p>En réservant une chambre d’hôtel à Méribel, station des 3 Vallées, vous bénéficiez d’une situation idéale. En effet, en plus de vous trouver au pied des pistes de ski, vous séjournerez dans une station conviviale et animée.
+                                Que vous voyagiez, en couple, en famille ou entre amis, la station de Méribel est la destination idéale pour des vacances au ski réussies : animations, sorties, restaurants, randonnées en raquettes, motoneige, etc.</p>
+                            <p>Située au cœur des Alpes, Méribel est une station hivernale qui accueille chaque année de nombreux visiteurs, français et étrangers, venus profiter de l’un des plus beaux domaines skiables au monde : le domaine des 3 Vallées.</p>
+                            <p>Réservez dès à présent votre hôtel à Méribel pour votre séjour au ski !</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="Listing-topList">
+                            <div class="limit-box-select">
+                                <form action="#" method="post">
+                                    <label for="items_par_page">Résultats par page</label>
+                                    <span class="OsWrapSelect">
+                                    <select name="items_par_page" >
+                                            <option value="20">20</option>
+                                            <option value="40">40</option>
+                                            <option value="60">60</option>
+                                    </select>
+                                </span>
+                                </form>
+                            </div>
+                            <nav class="Listing-nav">
+                                <ul>
+                                    <li>
+                                        <button class="Listing-button1">Listing</button>
+                                    </li>
+                                    <li>
+                                        <button class="Listing-button2">Carto</button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="Listing-list">
+                        <div class="bx-item">
+                            <div class="listing-item" id="hotel1">
+                                <div class="Listing-picture">
+                                    <img class="Listing-image" src="img/img2.jpg" width="400" height="200" alt="">
+                                </div>
+                                <div class="Listing-titleBlock">
+                                    <h2 class="Listing-title"> Hôtel le Savoy	</h2>
+                                    <div class="Listing-desc">Hôtel 3 étoiles idéalement situé au cœur de Méribel, au pied des pistes.Week-end ou vacances en famille</div>
+                                </div>
+                                <div class="link">
+                                    <a class="Listing-link" href="#">
+                                        <span class="Listing-linkText">DECOUVRIR</span>
+                                    </a>
+                                </div>
+                                <div class="Listing-dates" data-dates="DATES">
+                                    <span>Du 09/12/2016 au 09/04/2017.</span>
+                                </div>
+                                <div class="Listing-price">
+                                    À partir de <span>480€</span></div>
+                                <div class="Listing-roadbook __sitra-roadbook-buttons">
+                                    <button class="Listing-roadbookAdd " data-original-title="Ajouter au carnet de route" data-placement="top">
+                                        <span class="icon-roadbook"></span>Ajouter au carnet de route</button>
+                                    <button class="Listing-roadbookRemove" style="display:none;" data-original-title="Supprimer du carnet de route">
+                                        <span class="icon-roadbook-remove"></span>Supprimer du carnet de route </button>
+                                </div>
+                                <div class="Listing-reservation">
+                                    <a class="Listing-reserver" href="#">
+                                        <span>Réservez</span></a>
+                                </div>
+                            </div>
+                            <div class="listing-item" id="hotel2">
+                                <div class="Listing-picture">
+                                    <img class="Listing-image" src="img/img6.jpg" width="400" height="200" alt="">
+                                </div>
+                                <div class="Listing-titleBlock">
+                                    <h2 class="Listing-title"> Hôtel Alpen Ruitor	</h2>
+                                    <div class="Listing-desc">Au coeur du domaine des "Trois-Vallées" en plein centre de Méribel-Mottaret.</div>
+                                </div>
+                                <div class="link">
+                                    <a class="Listing-link" href="#">
+                                        <span class="Listing-linkText">DECOUVRIR</span>
+                                    </a>
+                                </div>
+                                <div class="Listing-dates" data-dates="DATES">
+                                    <span>Du 09/12/2016 au 09/04/2017.</span>
+                                </div>
+                                <div class="Listing-roadbook __sitra-roadbook-buttons">
+                                    <button class="Listing-roadbookAdd " data-original-title="Ajouter au carnet de route" data-placement="top">
+                                        <span class="icon-roadbook"></span>Ajouter au carnet de route</button>
+                                    <button class="Listing-roadbookRemove" style="display:none;" data-original-title="Supprimer du carnet de route">
+                                        <span class="icon-roadbook-remove"></span>Supprimer du carnet de route </button>
+                                </div>
+                                <div class="Listing-reservation">
+                                    <a class="Listing-reserver" href="#">
+                                        <span>Réservez</span></a>
+                                </div>
+                            </div>
+                            <div class="listing-item" id="hotel3">
+                                <div class="Listing-picture">
+                                    <img class="Listing-image" src="img/img3.jpg" width="400" height="200" alt="">
+                                </div>
+                                <div class="Listing-titleBlock">
+                                    <h2 class="Listing-title"> Hôtel le Yéti	</h2>
+                                    <div class="Listing-desc">Hôtel de charme remarquablement situé au Rond Point des Pistes.</div>
+                                </div>
+                                <div class="link">
+                                    <a class="Listing-link" href="#">
+                                        <span class="Listing-linkText">DECOUVRIR</span>
+                                    </a>
+                                </div>
+                                <div class="Listing-dates" data-dates="DATES">
+                                    <span>Du 09/12/2016 au 09/04/2017.</span>
+                                </div>
+                                <div class="Listing-roadbook __sitra-roadbook-buttons">
+                                    <button class="Listing-roadbookAdd " data-original-title="Ajouter au carnet de route" data-placement="top">
+                                        <span class="icon-roadbook"></span>Ajouter au carnet de route</button>
+                                    <button class="Listing-roadbookRemove" style="display:none;" data-original-title="Supprimer du carnet de route">
+                                        <span class="icon-roadbook-remove"></span>Supprimer du carnet de route </button>
+                                </div>
+                                <div class="Listing-reservation">
+                                    <a class="Listing-reserver" href="#">
+                                        <span>Réservez</span></a>
+                                </div>
+                            </div>
+                            <div class="listing-item" id="hotel4">
+                                <div class="Listing-picture">
+                                    <img class="Listing-image" src="img/img4.jpg" width="400" height="200" alt="">
+                                </div>
+                                <div class="Listing-titleBlock">
+                                    <h2 class="Listing-title"> Hôtel L'Hélios & Spa	</h2>
+                                    <div class="Listing-desc">Situé sur les pistes de Méribel dans la vallée des Allues</div>
+                                </div>
+                                <div class="link">
+                                    <a class="Listing-link" href="#">
+                                        <span class="Listing-linkText">DECOUVRIR</span>
+                                    </a>
+                                </div>
+                                <div class="Listing-dates" data-dates="DATES">
+                                    <span>Du 09/12/2016 au 09/04/2017.</span>
+                                </div>
+                                <div class="Listing-roadbook __sitra-roadbook-buttons">
+                                    <button class="Listing-roadbookAdd " data-original-title="Ajouter au carnet de route" data-placement="top">
+                                        <span class="icon-roadbook"></span>Ajouter au carnet de route</button>
+                                    <button class="Listing-roadbookRemove" style="display:none;" data-original-title="Supprimer du carnet de route">
+                                        <span class="icon-roadbook-remove"></span>Supprimer du carnet de route </button>
+                                </div>
+                                <div class="Listing-reservation">
+                                    <a class="Listing-reserver" href="#">
+                                        <span>Réservez</span></a>
+                                </div>
+                            </div>
+                            <div class="listing-item" id="hotel5">
+                                <div class="Listing-picture">
+                                    <img class="Listing-image" src="img/img5.jpg" width="400" height="200" alt="">
+                                </div>
+                                <div class="Listing-titleBlock">
+                                    <h2 class="Listing-title"> Hôtel & Lodges Adray-Télébar	</h2>
+                                    <div class="Listing-desc">Unique: hôtel ski aux pieds avec accès direct sur pistes</div>
+                                </div>
+                                <div class="link">
+                                    <a class="Listing-link" href="#">
+                                        <span class="Listing-linkText">DECOUVRIR</span>
+                                    </a>
+                                </div>
+                                <div class="Listing-dates" data-dates="DATES">
+                                    <span>Du 09/12/2016 au 09/04/2017.</span>
+                                </div>
+                                <div class="Listing-roadbook __sitra-roadbook-buttons">
+                                    <button class="Listing-roadbookAdd " data-original-title="Ajouter au carnet de route" data-placement="top">
+                                        <span class="icon-roadbook"></span>Ajouter au carnet de route</button>
+                                    <button class="Listing-roadbookRemove" style="display:none;" data-original-title="Supprimer du carnet de route">
+                                        <span class="icon-roadbook-remove"></span>Supprimer du carnet de route </button>
+                                </div>
+                                <div class="Listing-reservation">
+                                    <a class="Listing-reserver" href="#">
+                                        <span>Réservez</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bx-map">
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

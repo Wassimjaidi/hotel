@@ -1,0 +1,810 @@
+a:hover, .uk-link:hover {
+    color: #000;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.slide-home img {
+    width: 100%;
+}
+.Reservation {
+    background: linear-gradient(180deg, #111d2f 0, rgba(17, 29, 47, 0) 80%), url(../img/patternLight.svg) repeat 0 0, #111d2f;
+    background-size: auto, 24px auto;
+    padding: 20px 0;
+}
+.Reservation-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 .4rem;
+    font-size: 1.3rem;
+}
+.Reservation-content {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.Reservation-content>div:first-child #SelectMoteurExt {
+    color: #111D2F !important;
+}
+
+/*.Reservation-content>div:first-child .OsWrapSelect:after {
+    content: '';
+    background-image: url(../img/select_down.png);
+    height: 19px;
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+}*/
+
+ .FiltreMoteurExt {
+    display: inline-block;
+    float: left !important;
+    padding: 0 4px !important;
+}
+.OsFiltreBtnRecherche {
+    background-color: #cf122d!important;
+    border-radius: 0px;
+    color: #ffffff!important;
+    cursor: pointer!important;
+    display: inline-block!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    height: 42px!important;
+    line-height: 40px!important;
+    margin: 0;
+    padding: 2px 15px!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    text-transform: uppercase!important;
+    transition: all 250ms ease-in-out 0s!important;
+    width: auto!important;
+}
+
+/*datepicker*/
+
+.ui-state-disabled {
+    opacity: .35!important;
+    filter: Alpha(Opacity=35)!important;
+    background-image: none!important;
+}
+.bx-datepicker {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.bx-datepicker .demo, .bx-datepicker .demo input {
+    width: 102px;
+}
+.demo p {
+    margin: 0 !important;
+}
+.bx-datepicker input {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #111D2F url(../img/ico-calendar-b.png) no-repeat scroll right 5px center;
+}
+#datepicker {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px;
+    width: 167px;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff !important;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff!important;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff!important;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff!important;
+}
+.ui-datepicker {
+    width: auto !important;
+    padding: .5em!important;
+    border: 2px solid #CDCDCD!important;
+    -moz-border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important;
+    display: none;
+    background: #fff;
+}
+.ui-datepicker-header {
+    position: relative!important;
+    padding: 2px 0!important;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    position: absolute!important;
+    top: 2px!important;
+    width: 1.8em!important;
+    height: 1.8em!important;
+    background: #f5f5f5 !important;
+    border: 1px solid #cdcdcd!important;
+    height: 24px !important;
+    -webkit-transform: translateY(0%)!important;
+    -moz-transform: translateY(0%)!important;
+    -ms-transform: translateY(0%)!important;
+    -o-transform: translateY(0%)!important;
+    transform: translateY(0%)!important;
+}
+.ui-datepicker-prev {
+    left: 0px!important;
+}
+.ui-datepicker-next {
+    right: 0px!important;
+}
+.datepicker td a {
+    display: block!important;
+    padding: .3em!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    border: none!important;
+}
+.ui-state-default {
+    background-color: #E6E6E6!important;
+    color: #000!important;
+    font-weight: normal!important;
+    padding: 4px;
+    text-align: center;
+    display: block;
+    border: 1px solid #fff !important;
+}
+.ui-state-highlight {
+    background-color: #bbb!important;
+    border: none!important;
+    color: #fff!important;
+}
+.ui-state-active {
+    background-color: #cf122d!important;
+    border: medium none !important;
+    color: #fff!important;
+}
+.ui-datepicker-title {
+    margin: 0 2.3em!important;
+    line-height: 22px!important;
+    text-align: center!important;
+    background: none repeat scroll 0 0 #F5F5F5 !important;
+    border: 1px solid #CDCDCD!important;
+    font-size: 13px!important;
+    padding: 0!important;
+}
+.ui-datepicker-month {
+    border: none!important;
+    margin: 0 auto;
+}
+.ui-datepicker-year {
+    text-align: center;
+}
+.ui-datepicker-prev span, .ui-datepicker-next span {
+    display: block!important;
+    margin-top: 0px!important;
+}
+.ui-datepicker .ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.ui-icon-circle-triangle-w {
+    background: url(../img/left.gif) 50% 50% no-repeat!important;
+}
+.ui-icon-circle-triangle-e {
+    background: url(../img/right.gif) 50% 50% no-repeat!important;
+}
+.ui-datepicker.OsDatePicker table {
+    width: 100%!important;
+    font-size: 12px!important;
+    border-collapse: collapse!important;
+    margin: 0 0 .4em!important;
+}
+.ui-datepicker-calendar tr {
+    background: transparent none!important;
+}
+.ui-datepicker-calendar th {
+    padding: 5px!important;
+    text-align: center!important;
+    font-weight: bold!important;
+    /* background-color: #e20423!important; */
+    border: solid 1px #fff!important;
+}
+.ui-datepicker-calendar th span {
+    color: #e20423;
+}
+
+/*Listing-intro*/
+
+.Listing-intro {
+    margin-left: 15px;
+}
+.listing-content {
+    margin: 20px 12px 20px 75px;
+}
+.active-filtre .listing-content {
+    margin-left: 30px;
+}
+.Listing-heading {
+    font-size: 3rem;
+    font-weight: 200;
+    color: #111d2f;
+    margin: 0;
+}
+.wisiwig {
+    color: #132033;
+    margin-bottom: 3rem;
+    font-weight: 200;
+}
+.Listing-topList {
+    text-align: right;
+}
+.limit-box-select {
+    display: inline-block;
+    vertical-align: top;
+}
+.limit-box-select form {
+    display: -ms-flexbox;
+    display: flex;
+}
+.limit-box-select label {
+    line-height: 34px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.limit-box-select .OsWrapSelect {
+    width: 80px!important;
+    height: 35px!important;
+}
+#SelectMoteurExt {
+    border: 0 !important;
+    color: #fff;
+    margin-bottom: 0 !important;
+    max-width: 100% !important;
+    font-size: 14px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0 11px !important;
+    vertical-align: top !important;
+    width: 100% !important;
+    font-weight: 100;
+    font-family: 'Roboto', arial!important;
+    text-transform: uppercase;
+    background: #111D2F;
+}
+.Reservation-content>div:first-child #SelectMoteurExt {
+    background-color: #fff !important;
+}
+.OsWrapSelect, .PanneauAge, #tab-produit .PanneauAge, #tab-produit .OsWrapSelect {
+    overflow: hidden!important;
+    width: 100%!important;
+    color: #666!important;
+    font-size: 11px!important;
+    display: block!important;
+    border: 1px solid #fff;
+}
+.OsWrapSelect {
+    position: relative;
+}
+
+/*
+.OsWrapSelect:after {
+    content: '';
+    background-image: url(../img/select_down-blanc.png);
+    height: 19px;
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+}*/
+
+.limit-box-select .OsWrapSelect select {
+    height: 100%!important;
+    line-height: 21px!important;
+    width: 100%;
+}
+.Listing-nav {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 1.7rem;
+}
+.Listing-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: -.5rem;
+}
+.Listing-nav ul li {
+    padding: 0;
+}
+.Listing-nav ul>* {
+    margin: 0 .5rem;
+}
+.Listing-nav ul button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: .8rem 4rem;
+    border: none;
+    outline: none;
+    transition: background .25s ease-out;
+}
+.Listing-button1 {
+    background: #111d2f;
+    cursor: pointer;
+}
+.Listing-button2 {
+    background: #cf122d;
+    cursor: default;
+}
+
+/*grid*/
+
+.Listing-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: auto;
+}
+.bx-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.bx-map {
+    width: 35%;
+    margin-top: 15px;
+}
+.active-filtre .bx-item {
+    width: 100%;
+}
+.listing-item {
+    margin: 1rem;
+    border: 1px solid #eee;
+    position: relative;
+    padding-bottom: 6rem;
+    transition: box-shadow .15s ease-out;
+    width: 280px;
+}
+.Listing-picture {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.listing-item.isHover {
+    box-shadow: 0 1px 20px rgba(0, 0, 0, .13);
+}
+.Listing-picture {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.Listing-picture:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(39, 62, 102, .7);
+    opacity: 0;
+    transition: opacity .15s ease-out;
+}
+.listing-item.isHover .Listing-picture:after {
+    opacity: 1;
+}
+.Listing-image {
+    width: 100%;
+    height: auto;
+    background: #eee;
+    transition: transform .15s ease-out;
+}
+.listing-item.isHover .Listing-image {
+    transform: scale(1.05);
+}
+.Listing-titleBlock {
+    background: hsla(0, 0%, 100%, .65);
+    color: #111d2f;
+    text-align: center;
+    padding: 5px 20%;
+    position: absolute;
+    bottom: 7.5rem;
+    left: 0;
+    right: 0;
+}
+.Listing-title {
+    transition: color .25s ease-out;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.isHover .Listing-title {
+    color: #cf122d !important;
+}
+.Listing-desc {
+    font-size: 13px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .25s ease-out;
+}
+.isHover .Listing-desc {
+    max-height: 6rem;
+}
+.Listing-price {
+    width: 6.7rem;
+    height: 9rem;
+    background: #273e66;
+    color: #fff;
+    position: absolute;
+    top: -.7rem;
+    right: 2.5rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+    font-size: 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    pointer-events: none;
+    padding-top: 4rem;
+    transition: background .25s ease-out;
+}
+.Listing-price span {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.isHover .Listing-price {
+    background: #cf122d;
+}
+.Listing-link {
+    overflow: hidden;
+    text-indent: -9000px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.Listing-dates {
+    position: relative;
+    display: inline-block;
+    height: 2.5rem;
+    vertical-align: middle;
+    line-height: 2.5rem;
+    position: absolute;
+    bottom: 23px;
+    left: 2rem;
+}
+.Listing-dates:before {
+    content: attr(data-dates);
+    color: #fff;
+    background: #111d2f;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 8px 2px;
+    text-align: center;
+    transition: background .25s ease-out;
+    display: inline-block;
+    line-height: 1;
+    width: 6rem;
+}
+.Listing-dates span {
+    bottom: calc(100%+ 1.5rem);
+    transform: translate(-50%, -1rem);
+    background: #273e66;
+    color: #fff;
+    padding: .7rem 1rem .9rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.1;
+    opacity: 0;
+    width: 15rem;
+    max-width: 30rem;
+}
+.Listing-dates span, .Listing-dates span:after {
+    position: absolute;
+    left: 50%;
+    top: -53px;
+    pointer-events: none;
+    transition: opacity .2s, transform .2s ease-out;
+}
+.Listing-dates span:after {
+    content: "";
+    top: 100%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    z-index: 9;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    border-color: #273e66 transparent transparent;
+}
+.Listing-dates:focus:before, .Listing-dates:hover:before {
+    background: #1f3454;
+}
+.Listing-dates:focus span, .Listing-dates:hover span {
+    transform: translate(-50%);
+    opacity: 1;
+}
+.Listing-reserver {
+    background: #cf122d;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px;
+    transition: background .25s ease-out;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 20px;
+    left: 8.5rem;
+    cursor: pointer;
+}
+.Listing-reserver:focus, .Listing-reserver:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #e21431;
+}
+.Listing-roadbook {
+    position: absolute;
+    top: -.7rem;
+    right: 2.5rem;
+    height: 3rem;
+}
+.Listing-roadbook button {
+    font-size: 0;
+    color: transparent;
+    background: #111d2f url(../img/planner.svg) no-repeat 50% 2px;
+    background-size: auto 2.6rem;
+    border: none;
+    width: 6.7rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: background-color .25s ease-out;
+    outline: none;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none!important;
+}
+.Listing-roadbook button:before {
+    content: attr(title);
+    top: -2.9rem;
+    background: #273e66;
+    color: #fff;
+    padding: .7rem 2.5rem .9rem;
+    white-space: nowrap;
+    border-radius: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+    z-index: 8;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1;
+    text-decoration: none!important;
+}
+.Listing-roadbook button:before {
+    content: attr(data-original-title);
+}
+.Listing-roadbook button:after {
+    content: "";
+    top: 0;
+    width: 0;
+    height: 0;
+    z-index: 9;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    border-color: #273e66 transparent transparent;
+}
+.Listing-roadbook button:after, .Listing-roadbook button:before {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -2rem);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s, transform .2s ease-out;
+}
+.Listing-roadbook button:focus, .Listing-roadbook button:hover {
+    background-color: #cf122d;
+}
+.Listing-roadbook button:focus:after, .Listing-roadbook button:focus:before, .Listing-roadbook button:hover:after, .Listing-roadbook button:hover:before {
+    opacity: 1;
+    transform: translate(-50%, -1rem);
+}
+.Listing-roadbook button.Listing-roadbookRemove {
+    background-color: #970d21;
+}
+
+/*convass*/
+.leaflet-marker-icon.selectedMarker{
+  background: red !important;
+}
+.bx-filtres {
+    display: flex;
+    margin-top: 50px;
+}
+.Faceting-header {
+    position: absolute;
+    background: #111d2f;
+    color: #fff;
+    margin: 0;
+    width: 17rem;
+    height: 5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: 100% 0;
+    font-size: 17px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: background .25s ease-out;
+}
+.Faceting-header:after {
+    content: "";
+    background: url(../img/chevronRed.svg) no-repeat 50% 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+    background-size: 11px;
+    transform: rotate(90deg);
+}
+.title-result {
+    position: relative;
+    background: #111d2f !important;
+    color: #fff!important;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 15px;
+}
+.result-content {
+    margin-top: 20px;
+    background: #eee;
+}
+.tabs-choice p {
+    padding: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 !important;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.bx-choice {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 12px 20px;
+}
+.Faceting-col {
+    display: none;
+}
+.active-filtre .Faceting-col {
+    display: block;
+    width: 35%;
+    margin-left: 15px;
+}
+.title-result span {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    right: 16px;
+    top: 4px;
+    z-index: 9999;
+    cursor: pointer;
+}
+.Faceting-item.active {
+    color: #cf122d;
+}
+.Faceting-item {
+    cursor: pointer;
+    position: relative;
+}
+.Faceting-item.active:before {
+    border-color: #cf122d;
+}
+.Faceting-item:before {
+    display: inline-block;
+    content: "";
+    width: .75em;
+    height: .75em;
+    border: 1px solid #bdbdbd;
+    margin-right: .5em;
+    position: relative;
+    top: .13em;
+}
+.Faceting-item.active:after {
+    opacity: 1;
+}
+.Faceting-item:after {
+    display: inline-block;
+    content: "✔";
+    font-size: 1.125em;
+    width: .875em;
+    height: .875em;
+    position: absolute;
+    left: .08em;
+    top: -.18em;
+    opacity: 0;
+}
+.Faceting-criteria.isClosed dt:after {
+    transform: translateY(-50%);
+}
+.Faceting-title:after {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    content: "";
+    width: 2rem;
+    height: 1.5rem;
+    background: url(../img/chevronRed.svg) no-repeat 50% 50%;
+    background-size: 7px auto;
+}
+.Faceting-title.isClosed:after {
+    transform: translateY(-50%) rotate(0deg);
+}
+.hide-choise .bx-choice {
+    display: none;
+}
+.tabs-choice {
+    position: relative;
+}
+.tabs-choice:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*map*/
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+@media (max-width:1400px) {
+    .listing-item {
+        width: 243px;
+    }
+    .Faceting-title:after {
+        right: 10px;
+    }
+}
